@@ -1,0 +1,11 @@
+main: com.quade.rhpublicwarp.PublicWarp
+name: PublicWarp
+version: 1.0
+author: William Quade
+description: Make warps public using the /publicwarp command.
+commands:
+    publicwarp:
+        description: Makes a warp public.
+        usage: /publicwarp (warpname)
+        permission: rhpublicwarp.publicwarp
+        permission-message: You don't have permission to use that command.
